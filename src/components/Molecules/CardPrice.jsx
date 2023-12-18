@@ -8,11 +8,11 @@ const CardPrice = () => {
   return (
     <Flex align='center' justifyContent='space-between'>
       <Flex align='center' gap='5px'>
-        <Image src={IconEther} boxSize='20px' />
+        <Image src={IconEther} alt='ether icon' boxSize='20px' />
         <Price>0.041 ETH</Price>
       </Flex>
       <Flex align='center' gap='5px'>
-        <Image src={Clock} boxSize='20px' />
+        <Image src={Clock} alt='clock icon' boxSize='20px' />
         <Paragraph>3 days left</Paragraph>
       </Flex>
     </Flex>
